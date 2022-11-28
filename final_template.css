@@ -32,3 +32,17 @@ img {
 	margin-right: 5%;
 	margin-left: 5%;
 }
+
+@media only screen and (max-width: 767px)
+{
+	p#with-img
+    {
+        display: block; 
+        float: none;
+    }
+	img {
+		display: block; 
+		float: none;
+		margin-left: 30%;
+    }
+}
