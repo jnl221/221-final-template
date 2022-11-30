@@ -1,15 +1,5 @@
 /*This is the CSS page for our final template.*/
 
-.footer p {
-	background-color: #cccccc;
-	text-align: center;
-	font-size: 20px;
-	margin-bottom: 0;
-}
-p {
-	font-family: 'Poppins', sans-serif;
-	font-size: 20px;
-}
 .header {
 	height: auto;
 	font-weight: bold;
@@ -18,11 +8,27 @@ p {
 	color: white;
 	text-align: center;
 	font-family: 'Georgia', serif;
+	margin-top: 0px;
 }
 #dek {
 	font-style: italic;
 	font-size: 40px;
 	font-family: 'Georgia', serif;
+}
+#image {
+	float: right;
+}
+img {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+figcaption {
+	color: darkgray;
+	text-align: center;
+}
+p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
 }
 h4 {
 	font-size: 20px;
@@ -41,10 +47,11 @@ div#list {
 h3 {
 	font-size: 30px;
 }
-img {
-	float: right;
-	margin-right: 5%;
-	margin-left: 5%;
+.footer p {
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
 }
 
 @media only screen and (max-width: 767px)
@@ -54,7 +61,7 @@ img {
         display: block; 
         float: none;
     }
-	img {
+	#image {
 		display: block; 
 		float: none;
 		margin-left: 10%;
