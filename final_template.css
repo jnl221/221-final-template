@@ -19,10 +19,24 @@ p {
 	text-align: center;
 	font-family: 'Georgia', serif;
 }
-h4 {
+#dek {
 	font-style: italic;
 	font-size: 40px;
 	font-family: 'Georgia', serif;
+}
+h4 {
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+div#list {
+	float: right;
+	margin-right: 5%;
+	margin-left: 5%;
+	border: 1px solid black;
+	padding: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
 }
 h3 {
 	font-size: 30px;
@@ -35,7 +49,7 @@ img {
 
 @media only screen and (max-width: 767px)
 {
-	p#with-img
+	p#with-element
     {
         display: block; 
         float: none;
@@ -43,6 +57,13 @@ img {
 	img {
 		display: block; 
 		float: none;
-		margin-left: 30%;
+		margin-left: 10%;
+    }
+    div#list {
+    	display: block;
+    	float: none;
+    	margin-left: 10%;
+    	margin-right: 10%;
+    	padding: 6px;
     }
 }
